@@ -159,9 +159,6 @@ protected override void LoadDefaultMessages()
 **Community Update 240**
 This section references content from an older community update published on **16 March 2022**. As it is over a year old, certain elements might no longer be current or accurate. Use it for historical context and adapt to the latest developments in Rust and the Oxide API.
 
-### 6. Key Updates from Knowledge.txt
-Incorporate new methods like `ShouldUseCastNoClipChecks()` or enhanced hooks like `OnEntityDismounted` for advanced interaction.
-
 ### 6. Use Cases
 1. **Event Management:**
    Create plugins to manage custom server events.
