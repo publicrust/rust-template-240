@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "rust-reflect-cli": {
+      "version": "1.0.0",
+      "commands": [
+        "rust-reflect"
+      ],
+      "rollForward": false
+    }
+  }
+}
