@@ -1,4 +1,4 @@
-﻿using Oxide.Core.Plugins;
+using Oxide.Core.Plugins;
 using Oxide.Core.Libraries.Covalence;
 
 namespace Oxide.Plugins
@@ -6,7 +6,7 @@ namespace Oxide.Plugins
     [Info("HelloWorld", "PublicRust", "1.0.0")]
     [Description("Simple Hello World plugin for Rust")]
 
-    public class HelloWorld : CovalencePlugin
+    public class HelloWorld : RustPlugin
     {
         private void Init()
         {
@@ -14,9 +14,9 @@ namespace Oxide.Plugins
         }
 
         [ChatCommand("hello")]
-        private void HelloCommand(IPlayer player, string command, string[] args)
+        private void HelloCommand(BasePlayer player, string command, string[] args)
         {
-            player.Reply("Hello, " + player.Name + "! Welcome to this Rust server.");
+            player.ChatMessage("Hello, " + player.displayName + "! Welcome to this Rust server.");
         }
     }
 }

@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <LangVersion>10</LangVersion>
+    <LangVersion>11</LangVersion>
     <NoWarn>MSB3277</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <RustVersion>240Dev</RustVersion>
@@ -16,7 +16,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="rust-analyzer" Version="8.0.19">
+    <PackageReference Include="rust-analyzer" Version="8.0.22">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
