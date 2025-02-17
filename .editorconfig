@@ -37,3 +37,7 @@ csharp_prefer_braces = true:error
 
 # Force method arguments to be split onto new lines
 csharp_new_line_before_comma = true
+
+dotnet_diagnostic.CA1034.severity = none
+
+dotnet_diagnostic.S2325.severity = none
