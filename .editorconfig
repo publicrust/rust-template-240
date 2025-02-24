@@ -44,4 +44,6 @@ dotnet_diagnostic.S2325.severity = none
 
 dotnet_diagnostic.S2325.CA1001 = none
 
+dotnet_diagnostic.IDE0045.severity = none
+
 dotnet_diagnostic.IDE0058.severity = none
