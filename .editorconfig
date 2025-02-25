@@ -49,3 +49,8 @@ dotnet_diagnostic.IDE0045.severity = none
 dotnet_diagnostic.IDE0058.severity = none
 
 dotnet_diagnostic.ca1859.severity = none
+
+dotnet_diagnostic.CS8618.severity = none
+
+#block nullable
+dotnet_diagnostic.RA0040.severity = none 
